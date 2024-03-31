@@ -25,17 +25,22 @@ export const handler: Handlers = {
 const Page = (props: PageProps) => {
 
     return(
-        <div class="1">
-            <form>
+      <body class="personaje">
+        <div class="form">
+            <form class="formulario">
+            <h2> que heroe macizo quieres buscar</h2>
                 <input type="text" name="nombre" placeholder="name"></input>
                 <button type="submit"> buscar </button>
             </form>
             
-            <div class="2">
-                {props.data !== undefined && <Heroe name={props.data.name} image={props.data.image} sound={props.data.sound}/>}
-            </div>
+            
 
         </div>
+        <div >
+            {props.data !== undefined && <Heroe name={props.data.name} image={props.data.image} sound={props.data.sound}/>}
+        </div>
+      </body>
+        
         
     )
 }

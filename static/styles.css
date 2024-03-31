@@ -130,18 +130,34 @@ html {
   font-variant-numeric: tabular-nums;
 }
 
-/*MIO*/
+/*MIO
 body {
   background: url("https://i.gifer.com/WiC5.gif")center center fixed;
 
-}
+}*/
 body.personaje {
   background: url("https://i.pinimg.com/474x/1b/19/da/1b19daa5443811aff7e7e00171b21309.jpg")center center fixed;
   background-position: top, cover;
   background-size: cover;
   background-repeat:  no-repeat;
-
-    
+}
+body.index {
+  background: url("https://files.catbox.moe/kvr2s9.jpg")center center fixed;
+  background-position: top, cover;
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+body.matar {
+  background: url("https://files.catbox.moe/hapcyi.jpg")center center fixed;
+  background-position: top, cover;
+  background-size: cover;
+  background-repeat:  no-repeat;
+}
+body.add {
+  background: url("https://cdn.shopify.com/s/files/1/0352/2635/3709/articles/Banniere-Blog-Asgard.jpg?v=1630977071")center center fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat:  no-repeat;
 }
 
 div.centrar {
@@ -181,19 +197,41 @@ a {
   color: white;
   text-decoration: none;
   margin: 0 1rem;
+  font-weight: bold; /* Aplicar negrita */
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 a.link {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   
+}
+a:hover{
+  text-shadow: 2px 2px 4px rgb(255, 82, 223);
 }
 
 p {
   font-weight: bold; /* Aplicar negrita */
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 30px;
+}
+p.msg {
+  margin-top: 5px;
+  background-color: #66f49c;
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  flex-direction: column;
+}
+p.msgg {
+  margin-top: 5px;
+  background-color: #ff5a5a;
+  display: flex;
+  height: fit-content;
+  align-items: center;
+  flex-direction: column;
 }
 
 p:hover {
@@ -258,7 +296,8 @@ p:hover {
 }
 
 .heroe {
-  background: #ff009d;
+  background: url("https://i.gifer.com/5WWU.gif") ;
+  background-color: #fabada;
   color: whitesmoke;
   text-align: center;
 
@@ -289,7 +328,6 @@ p:hover {
 }
 
 img {
-  width: 300px;
   height: 330px;
   border-radius: 5px;
   border:3px dotted #ffffff;
@@ -318,4 +356,7 @@ button {
   border-color: #ffffff;
   background-color: #ffd2f8;
   border-radius: 10px;
+}
+button:hover {
+  box-shadow: 2px 2px 4px rgb(255, 82, 223);
 }

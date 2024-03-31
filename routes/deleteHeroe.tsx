@@ -31,13 +31,14 @@ export const handler: Handlers = {
 const Page = (props: PageProps) => {
 
     return(
-        <div>
+        <body class="matar">
+            <div>
             
             <DeleteForm/>
             
-            
-
-        </div>
+            </div>
+        </body>
+        
         
     )
 }

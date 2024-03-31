@@ -45,17 +45,21 @@ export const Form: FunctionComponent= () => {
   
 
   return (
-    <div class="formulario form">
-        <h2 class="aling:center"> que heroe quieres que desaparezca </h2>
-        <input type="text" name="nombre" placeholder="name" onInput={(e) => setName(e.currentTarget.value)}></input>
-        <input type="text" name="creador" placeholder="creator" onInput={(e) => setCreator(e.currentTarget.value)}></input>
+    <>
+      <div class="formulario form">
+          <h2 class="aling:center"> que heroe quieres mandar a hades </h2>
+          <input type="text" name="nombre" placeholder="name" onInput={(e) => setName(e.currentTarget.value)}></input>
+          <input type="text" name="creador" placeholder="creator" onInput={(e) => setCreator(e.currentTarget.value)}></input>
 
-        <button type="submit" onClick={eliminar}> Eliminar  </button>
+          <button type="submit" onClick={eliminar}> Eliminar  </button>
 
+      </div>
+      <p class="msgg">
         {msg!=="" && <div>{msg}</div>}
-      
-      
-    </div>
+      </p>
+
+    </>
+    
   );
 };
 

@@ -44,14 +44,17 @@ export const handler: Handlers = {
 const Page = (props: PageProps) => {
 
     return(
-        <div>
-            
-            <AddForm/>
+      <body class="add">
+          <div>
+              
+              <AddForm/>
 
-            <p>{props.data}</p>
-            
+              <p class="msg">{props.data}</p>
+              
 
-        </div>
+          </div>
+      </body>
+        
         
     )
 }

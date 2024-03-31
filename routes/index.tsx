@@ -28,12 +28,12 @@ export const handler: Handlers = {
 export default function Home( props:PageProps) {
   
   return (
-    <>
+    <body class="index">
       <a class="eliminar" href="/deleteHeroe"> eliminar heroe </a>
       <div>
           <Heroes  lista ={ props.data} />
       </div>
-    </>
+    </body>
     
   )
     
