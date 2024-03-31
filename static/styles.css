@@ -1,0 +1,321 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+/*
+button {
+  color: inherit;
+}
+button, [role="button"] {
+  cursor: pointer;
+}
+*/
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace;
+  font-size: 1em;
+}
+img,
+svg {
+  display: block;
+}
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  line-height: 1.5;
+  -webkit-text-size-adjust: 100%;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.transition-colors {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.my-6 {
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.my-4 {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.py-8 {
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.bg-\[\#86efac\] {
+  background-color: #86efac;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.py-6 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-1 {
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+.border-gray-500 {
+  border-color: #6b7280;
+}
+.bg-white {
+  background-color: #fff;
+}
+.flex {
+  display: flex;
+}
+.gap-8 {
+  grid-gap: 2rem;
+  gap: 2rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.max-w-screen-md {
+  max-width: 768px;
+}
+.flex-col {
+  flex-direction: column;
+}
+.items-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.border-2 {
+  border-width: 2px;
+}
+.rounded {
+  border-radius: 0.25rem;
+}
+.hover\:bg-gray-200:hover {
+  background-color: #e5e7eb;
+}
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/*MIO*/
+body {
+  background: url("https://i.gifer.com/WiC5.gif")center center fixed;
+
+}
+body.personaje {
+  background: url("https://i.pinimg.com/474x/1b/19/da/1b19daa5443811aff7e7e00171b21309.jpg")center center fixed;
+  background-position: top, cover;
+  background-size: cover;
+  background-repeat:  no-repeat;
+
+    
+}
+
+div.centrar {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    
+   
+}
+div.form {
+  background-color: #fabada;
+  box-shadow: 0 0 50px rgba(245, 146, 224, 0.8);
+  border: 2px solid #ffffff;
+  padding: 5%;
+  width: 500px;
+  margin-top: 15%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 200%;
+  font-family: 'Lucida Handwriting',cursive;
+  margin-top: 15%;
+}
+h2 {
+  font-size: 150%;
+  font-family: 'Lucida Handwriting',cursive;
+  color:#ffffff;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+a.link {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+p {
+  font-weight: bold; /* Aplicar negrita */
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+
+p:hover {
+  text-shadow: 2px 2px 4px rgba(4, 0, 255, 0.5);
+}
+
+.eliminar{
+  color: black;
+  display: flex;
+  /*width: fit-content;*/
+  height: fit-content;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  border: 2px solid #6b7280;
+  
+  background-color: #d60606;
+  padding: 1rem;
+  
+  width: 200px;
+  margin: auto;
+
+  font-weight: bold;
+ 
+}
+
+.layout {
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #fabada;
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    box-shadow: 0 0 50px rgba(245, 146, 224, 0.8);
+
+    width: 600px;
+    margin: auto;
+}
+
+.centrar {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+
+    
+
+    
+}
+
+.heroes {
+  display: flex;
+  justify-content: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.heroe {
+  background: #ff009d;
+  color: whitesmoke;
+  text-align: center;
+
+  border-radius: 20px;
+  /*
+  border: solid 2px rgb(145, 42, 151);
+  box-shadow: 2px 2px 2px rgb(172, 63, 194);
+  overflow: hidden;
+
+  */
+  justify-content: space-around;
+
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  width: 350px;
+  height: 500px;
+}
+
+.heroe:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transform: scale(1.03);
+}
+
+img {
+  width: 300px;
+  height: 330px;
+  border-radius: 5px;
+  border:3px dotted #ffffff;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+input {
+  width: 400px;
+  height: 30px;
+}
+
+button {
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  color:#ffffff;
+  border-style: dashed;
+  border-color: #ffffff;
+  background-color: #ffd2f8;
+  border-radius: 10px;
+}
